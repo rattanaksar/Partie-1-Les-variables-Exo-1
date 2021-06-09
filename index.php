@@ -1,3 +1,6 @@
+<?php
+        $name = 'Rattanak';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,9 +11,6 @@
 </head>
 <body>
     <h1>Exo 1 Partie : Les variables PHP</h1>
-    <?php
-        $name = "Rattanak";
-        echo "$name";
-    ?>
+    <p><?= $name;?></p>
 </body>
 </html>
